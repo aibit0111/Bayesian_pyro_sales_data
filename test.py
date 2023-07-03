@@ -17,7 +17,7 @@ item3 = torch.tensor(df['prC'].values, dtype=torch.float)
 item4 = torch.tensor(df['prD'].values, dtype=torch.float)
 revenue = torch.tensor(df['revenue'].values, dtype=torch.float)
 
-
+  
 # a simple model
 def model(item1, item2, item3, item4, revenue):
     # Prior distributions for the regression coefficients
