@@ -7,5 +7,5 @@ Price of product vary in different days, thats why revenue is different.
 Objective = Find the range of price of products.
 
 Used Simple Linear regression and Bayesian regression 
-  
+     
       
