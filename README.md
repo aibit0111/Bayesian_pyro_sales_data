@@ -10,3 +10,4 @@ Used Simple Linear regression and Bayesian regression
 Changing the prior
      
         
+      
