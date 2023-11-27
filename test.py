@@ -22,7 +22,7 @@ revenue = torch.tensor(df['revenue'].values, dtype=torch.float)
 def model(item1, item2, item3, item4, revenue):
     # Prior distributions for the regression coefficients
     alpha = pyro.sample("alpha", dist.Normal(0, 10))
-    beta1 = pyro.sample("beta1", dist.Uniform(7000, 15000))
+    beta1 = pyro.sample("beta1", dist.Uniform(7000, 15000))         
     beta2 = pyro.sample("beta2", dist.Normal(10000, 7000))
     beta3 = pyro.sample("beta3", dist.Normal(10000, 7000))
     beta4 = pyro.sample("beta4", dist.Normal(10000, 7000))
