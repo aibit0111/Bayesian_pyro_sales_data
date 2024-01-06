@@ -1,4 +1,5 @@
 # Bayesian_pyro_sales_data
+
 Comparison between bayesian linear regression and normal linear regression on sales data
 
 Data set include 4 products as column and one revenue as column:
